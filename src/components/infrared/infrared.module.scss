@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.infraBack {
+
+}
+
+.infraFront {
+    position: absolute;
+    top:0; 
+    left:0;
+    width: 100%;
+    // -webkit-filter: invert(1) saturate(.75) hue-rotate(60deg);
+    // filter: invert(1) saturate(.75) hue-rotate(60deg);
+    mix-blend-mode: color;
+}
