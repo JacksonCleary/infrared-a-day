@@ -7,7 +7,7 @@ const unsplashKeywords: Array<string> = [
   "flowers",
   "plants",
   "mountains",
-  "snow",
+  "snowtop",
 ]
 
 export const getRandomKeyword = (): string => {
