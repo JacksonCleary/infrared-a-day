@@ -45,7 +45,9 @@ export const Infrared = (): JSX.Element => {
           </p>
         )}
       </div>
-      {readyImgBase && readyImgStyled && <div id="puppeteer-catch"></div>}
+      {readyImgBase && readyImgStyled && img && (
+        <div id="puppeteer-catch">{img.id}</div>
+      )}
     </div>
   )
 }
